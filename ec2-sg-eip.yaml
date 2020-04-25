@@ -32,7 +32,7 @@ Resources:
         IpProtocol: tcp
         ToPort: 22
 
-  # our second EC2 security group
+  # our second EC2 security group1
   ServerSecurityGroup:
     Type: AWS::EC2::SecurityGroup
     Properties:
